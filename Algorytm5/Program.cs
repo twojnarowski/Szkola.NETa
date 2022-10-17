@@ -1,48 +1,25 @@
-﻿List<(string letterGroup, string word)> _wordDictionary = new();
-List<string[]> _anagrams = new();
+﻿// Storing words and letter groups.
+// Letter group -> all letters forming a word, in alphabetical order.
+List<(string letterGroup, string word)> _wordDictionary = new();
 
-foreach (string givenWord in args)
+foreach (string arg in args)
 {
-    string safeWord = new(givenWord.ToLower().Where(w => char.IsLetter(w)).ToArray());
+    // Cleaning user input.
+    string safeWord = new(arg.ToLower().Where(w => char.IsLetter(w)).ToArray());
     if (safeWord.Length > 0)
     {
+        // Saving letter group and word.
         _wordDictionary.Add(new(string.Concat(safeWord.OrderBy(c => c)), safeWord));
     }
 }
 
-foreach (var letterGroup in _wordDictionary.GroupBy(w => w.letterGroup).Select(w => w.First().letterGroup).OrderBy(w => w))
+// Selecting each distinct letter group.
+foreach (var letterGroup in _wordDictionary.Select(w => w.letterGroup).OrderBy(w => w).Distinct())
 {
-    List<string> anagrams = new();
-    foreach (var word in _wordDictionary.Where(w => w.letterGroup == letterGroup).Select(w => w.word))
+    // Selecting each distinct word with given letter group, thus printing out the anagrams or lone words without anagrams.
+    foreach (string word in _wordDictionary.Where(w => w.letterGroup == letterGroup).Select(w => w.word).Distinct())
     {
-        if (!anagrams.Contains(word))
-        {
-            anagrams.Add(word);
-        }
+        Console.Write("'{0}' ", word);
     }
-    if (anagrams.Count > 0)
-    {
-        List<string> anagram = new();
-        foreach (string word in anagrams)
-        {
-            anagram.Add(word);
-        }
-        _anagrams.Add(anagram.ToArray());
-    }
-}
-
-if (_anagrams.Count == 0)
-{
-    Console.WriteLine("''");
-}
-else
-{
-    foreach (string[] anagrams in _anagrams)
-    {
-        foreach (string anagram in anagrams)
-        {
-            Console.Write("'{0}' ", anagram);
-        }
-        Console.WriteLine();
-    }
+    Console.WriteLine();
 }
