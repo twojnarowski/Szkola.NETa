@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Algorytm5": {
+      "commandName": "Project",
+      "commandLineArgs": "['eat', 'ate', 'apt', 'pat', 'tea', 'now']"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Algorytm13": {
+      "commandName": "Project",
+      "commandLineArgs": "1 1 *"
+    }
+  }
+}
