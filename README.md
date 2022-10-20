@@ -1,3 +1,3 @@
 # Zadania do Szkoły .NETa
-Discord:
-https://discord.gg/GsMrtum7Yd
+## Discord Szkoły .NETa
+### https://discord.gg/GsMrtum7Yd
