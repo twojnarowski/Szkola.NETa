@@ -1,4 +1,4 @@
-LINQ Challange #7
+/*LINQ Challange #7
 Dzisiaj na sportowo ⚽
 
 W tablicy znaków mamy zapisane wyniki meczów naszej drużyny:
@@ -15,10 +15,11 @@ c) A < B => 0pkt.
 
 Z powyższej tablicy powinniśmy otrzymać wynik: 13
 
-Szablon do uzupełnienia:
+Szablon do uzupełnienia:*/
+
 private static int PointsScored(string[] scoreboard)
     {
         return scoreboard.Select(x => x = x[0] > x[2] ? "3" : x[0] < x[2] ? "0" : "1").Sum(x => int.Parse(x)); 
     }
 
-Enjoy 🙂 
+/*Enjoy 🙂 */

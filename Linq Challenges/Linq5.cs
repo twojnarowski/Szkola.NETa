@@ -1,4 +1,4 @@
-LINQ Challange #5
+/*LINQ Challange #5
 ❤️ Piąteczek, piątunio ❤️ Nie będę Was zbytnio przemęczać na koniec tygodnia 😉
 
 To zadanie można rozwiązać przy użyciu jednej pętli i dwóch ifów. Można także wznieść się ponad chmury i rozpisać się na 30+ linijek.
@@ -8,13 +8,14 @@ Uzupełnij rozwiązanie tak, aby zwracało prawdę, jeśli pierwszy przekazany a
 solution('friday', 'day') // true
 solution('monday', 'bump') // false
 
-Szablon do uzupełnienia:
+Szablon do uzupełnienia:*/
+
 private static bool Friday(string first, string second)
     {
         return first.EndsWith(second);
     }
 
-Podpowiedź:
+/*Podpowiedź:
 Linijka pomiędzy klamerkami powinna mieć dokładnie 29 znaków (+1 spacja) ;)
 
-Enjoy 🙂
+Enjoy 🙂*/

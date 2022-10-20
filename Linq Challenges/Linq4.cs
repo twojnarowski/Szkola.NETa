@@ -1,4 +1,4 @@
- LINQ Challange #4
+/*LINQ Challange #4
 Kontynuujemy zabawy na stringach, ale wpleciemy trochę liczb 🙂
 
 Mamy podany string, np.:
@@ -20,11 +20,11 @@ Zakładamy, że do funkcji zawsze zostanie przekazany niepusty string. Spacje - 
 Do wyzwania przyjmijcie tę - jakże piękną - łacińską sentencję:
 var str = "Pecunia non olet";
 
-Szablon na szybki start:
+Szablon na szybki start:*/
+
 private static Dictionary<char, int> CountCharacters(string str)
     {
         return str.Distinct().ToDictionary(x => x.ToString(), x => str.Count(y => x == y));
     }
 
-
-Enjoy 🙂
+/*Enjoy 🙂*/

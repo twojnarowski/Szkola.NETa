@@ -1,4 +1,4 @@
-LINQ Challange #3
+/*LINQ Challange #3
 Były liczby, teraz trochę zabawy na stringach 🙂
 
 Na wejściu mamy dwie tablice.
@@ -18,11 +18,11 @@ var array2 = {"badge", "drunker", "outruns", "layout", "withdrawn", "yourself", 
 Oczekiwany rezultat:
 A nie napiszę, to będzie niespodzianka 🙂
 
-Szablon na szybki start:
+Szablon na szybki start:*/
+
 private static string[] InArray(string[] array1, string[] array2)
     {
         return array1.Where(x => array2.Any(y => y.Contains(x))).OrderBy(x => x).ToArray();
     }
 
-
-Enjoy 🙂
+/*Enjoy 🙂*/

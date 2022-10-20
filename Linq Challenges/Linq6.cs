@@ -1,4 +1,4 @@
-LINQ Challange #6
+/*LINQ Challange #6
 Mam nadzieję, że jesienna szaruga nie wpływa na Was demotywująco do działania z LINQ 🙂
 
 Dzisiaj troszkę policzymy. Mamy tablicę liczb całkowitych:
@@ -10,10 +10,11 @@ Z powyższej tablicy powinniśmy otrzymać wynik: 38
 Uwaga!
 Niedozwolone jest sortowanie 🙂
 
-Szablon do uzupełnienia:
+Szablon do uzupełnienia:*/
+
 private static int Sum(int[] numbers)
     {
         return numbers.Sum() - numbers.Min() - numbers.Max();
     }
 
-Enjoy 🙂 
+/*Enjoy 🙂 */
