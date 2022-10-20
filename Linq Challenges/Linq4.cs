@@ -23,8 +23,8 @@ var str = "Pecunia non olet";
 Szablon na szybki start:*/
 
 private static Dictionary<char, int> CountCharacters(string str)
-    {
-        return str.Distinct().ToDictionary(x => x.ToString(), x => str.Count(y => x == y));
-    }
+{
+    return str.Distinct().ToDictionary(x => x.ToString(), x => str.Count(y => x == y));
+}
 
 /*Enjoy 🙂*/

@@ -9,9 +9,9 @@ Oczekiwany rezultat:
 Szablon na szybki start:*/
 
 private static int Dividers(int input)
-    {
-        return Enumerable.Range(1, input).Where(x => input%x == 0).Count();
-    }
+{
+    return Enumerable.Range(1, input).Where(x => input%x == 0).Count();
+}
     
 /*Zwracamy ilość! 
 Enjoy 🙂*/

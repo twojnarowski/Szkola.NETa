@@ -21,8 +21,8 @@ A nie napiszę, to będzie niespodzianka 🙂
 Szablon na szybki start:*/
 
 private static string[] InArray(string[] array1, string[] array2)
-    {
-        return array1.Where(x => array2.Any(y => y.Contains(x))).OrderBy(x => x).ToArray();
-    }
+{
+    return array1.Where(x => array2.Any(y => y.Contains(x))).OrderBy(x => x).ToArray();
+}
 
 /*Enjoy 🙂*/

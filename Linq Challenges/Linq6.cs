@@ -13,8 +13,8 @@ Niedozwolone jest sortowanie 🙂
 Szablon do uzupełnienia:*/
 
 private static int Sum(int[] numbers)
-    {
-        return numbers.Sum() - numbers.Min() - numbers.Max();
-    }
+{
+    return numbers.Sum() - numbers.Min() - numbers.Max();
+}
 
 /*Enjoy 🙂 */

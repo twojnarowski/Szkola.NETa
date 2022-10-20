@@ -6,6 +6,6 @@ Oczekiwany rezultat:
 Szablon na szybki start:*/
 
 private static int SquareSum(int[] input)
-    {
+{
         return input.Sum(x => Math.Pow(x, 2));
-    } 
+} 

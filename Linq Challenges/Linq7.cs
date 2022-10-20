@@ -18,8 +18,8 @@ Z powyższej tablicy powinniśmy otrzymać wynik: 13
 Szablon do uzupełnienia:*/
 
 private static int PointsScored(string[] scoreboard)
-    {
-        return scoreboard.Select(x => x = x[0] > x[2] ? "3" : x[0] < x[2] ? "0" : "1").Sum(x => int.Parse(x)); 
-    }
+{
+    return scoreboard.Select(x => x = x[0] > x[2] ? "3" : x[0] < x[2] ? "0" : "1").Sum(x => int.Parse(x)); 
+}
 
 /*Enjoy 🙂 */

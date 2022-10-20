@@ -11,9 +11,9 @@ solution('monday', 'bump') // false
 Szablon do uzupełnienia:*/
 
 private static bool Friday(string first, string second)
-    {
-        return first.EndsWith(second);
-    }
+{
+    return first.EndsWith(second);
+}
 
 /*Podpowiedź:
 Linijka pomiędzy klamerkami powinna mieć dokładnie 29 znaków (+1 spacja) ;)

@@ -14,9 +14,9 @@ Z powyższej tablicy powinniśmy otrzymać wynik:
 Szablon do uzupełnienia:*/
 
 private static int[] MultipleOfIndex(int[] array)
-    {
-        return array[1..].Where(x => x % Array.IndexOf(array, x) == 0);
-    }
+{
+    return array[1..].Where(x => x % Array.IndexOf(array, x) == 0);
+}
 
 /*Uwaga
 1. Pamiętajcie, że nie dzielimy przez zero 😉
