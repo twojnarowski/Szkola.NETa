@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm14", "Algorytm#14\A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm15", "Algorytm#15\Algorytm15.csproj", "{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytm16", "Algorytm16\Algorytm16.csproj", "{1515C0AB-8C9B-44C6-86D8-FD16670812AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1515C0AB-8C9B-44C6-86D8-FD16670812AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1515C0AB-8C9B-44C6-86D8-FD16670812AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1515C0AB-8C9B-44C6-86D8-FD16670812AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1515C0AB-8C9B-44C6-86D8-FD16670812AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
