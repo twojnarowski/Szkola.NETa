@@ -14,7 +14,7 @@ Szablon do uzupełnienia:*/
 
 private static List<string> PositionOfChars(string input)
 {
-    return input.Select((x, i) => $"{i+1}: {x}");
+    return input.Select((x, i) => $"{i+1}: {x}").ToList();
 }
 
 /*Enjoy 🙂 */
