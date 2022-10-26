@@ -28,7 +28,7 @@ Szablon do uzupełnienia:*/
 
 private static bool CheckIfFlush(string[] input)
 {
-	return input.DistinctBy(x => x.Last()).Count() == 1;
+    return input.DistinctBy(x => x.Last()).Count() == 1;
 }
 
 /*Enjoy 🙂*/
