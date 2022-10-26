@@ -28,8 +28,7 @@ Szablon do uzupełnienia:*/
 
 private static bool CheckIfFlush(string[] input)
 {
-	var cards1 = new[] {"9H", "3H", "AH", "7H", "QH"}; // => true
-	return cards1.DistinctBy(x => x.Last()).Count() == 1;
+	return input.DistinctBy(x => x.Last()).Count() == 1;
 }
 
 /*Enjoy 🙂*/
