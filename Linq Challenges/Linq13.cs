@@ -14,3 +14,8 @@ public static string FollowingChristmas(string date)
 /*Powodzenia 😛
 
 PS. można wygrać uścisk Grzegorzów jeśli napisze się metodę przyjmującą jako parametr liczbę lat, dla których mają zostać zwrócone dni tygodnia ;P */
+
+public static string FollowingChristmas(string date, int years)
+{
+    return string.Join(", ",(Enumerable.Range(int.Parse(date[0..4]) + Math.Max(0, DateTime.Parse(date).CompareTo(DateTime.Parse(date[0..4] + "-12-25"))), years).Select(x => DateTime.Parse(x + "-12-25").DayOfWeek)).ToArray());
+}
