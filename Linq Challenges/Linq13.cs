@@ -6,7 +6,8 @@ Dla przykładu:
 
 Szablon:*/
 
-public static string FollowingChristmas(string date){
+public static string FollowingChristmas(string date)
+{
   return string.Join(", ",(Enumerable.Range(int.Parse(date[0..4]) + Math.Max(0, DateTime.Parse(date).CompareTo(DateTime.Parse(date[0..4] + "-12-25"))), 5).Select(x => DateTime.Parse(x + "-12-25").DayOfWeek)).ToArray());
 }
 
