@@ -12,7 +12,7 @@ Szablon do uzupełnienia:*/
 
 private static string TotalDuration(string input)
 {
-    return (new List<TimeSpan>(){Enumerable.Aggregate(input.Split(",").Select(x => x.Length <= 5 ? TimeSpan.Parse(("00:" + x)) : TimeSpan.Parse(x)), new TimeSpan(), (s, d) => s + d)}).Select(x => Math.Floor(x.TotalHours) + ":" + x.ToString("mm\\:ss")).First();
+    return (new List<TimeSpan>(){input.Split(",").Select(x => x.Length <= 5 ? TimeSpan.Parse(("00:" + x)) : TimeSpan.Parse(x)).Aggregate((s, d) => s + d)}).Select(x => Math.Floor(x.TotalHours) + ":" + x.ToString("mm\\:ss")).First();
 }
 
 /*Enjoy 🙂*/
