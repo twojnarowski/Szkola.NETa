@@ -30,9 +30,9 @@ double width = 0d;
 double height = 0d;
 
 Console.Write("Proszę podać wysokość prostokąta: ");
-double.TryParse(Console.ReadLine(), out width)
-Console.Write("Proszę podać szerokość prostokąta: ");
 double.TryParse(Console.ReadLine(), out height)
+Console.Write("Proszę podać szerokość prostokąta: ");
+double.TryParse(Console.ReadLine(), out width)
     
 if ( width > 0 && height > 0 )
 {
