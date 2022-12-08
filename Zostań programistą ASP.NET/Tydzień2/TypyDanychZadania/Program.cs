@@ -26,10 +26,15 @@ Console.WriteLine($"{char3} {char2} {char1}");
 // 3. Napisz program, który na podstawie podanej szerokości i długości prostokąta wyliczy długość
 // przekątnej. (Aby, obliczyć kwadrat liczby użyj metody Math.Pow())
 
-double width;
-double height;
+double width = 0d;
+double height = 0d;
 
-if (double.TryParse(Console.ReadLine(), out width) && double.TryParse(Console.ReadLine(), out height))
+Console.Write("Proszę podać wysokość prostokąta: ");
+double.TryParse(Console.ReadLine(), out width)
+Console.Write("Proszę podać szerokość prostokąta: ");
+double.TryParse(Console.ReadLine(), out height)
+    
+if ( width > 0 && height > 0 )
 {
     double diagonal = Math.Sqrt(Math.Pow(width, 2) + Math.Pow(height, 2));
 }
