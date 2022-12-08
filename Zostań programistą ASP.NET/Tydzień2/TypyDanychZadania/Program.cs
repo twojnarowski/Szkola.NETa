@@ -37,6 +37,11 @@ double.TryParse(Console.ReadLine(), out width)
 if ( width > 0 && height > 0 )
 {
     double diagonal = Math.Sqrt(Math.Pow(width, 2) + Math.Pow(height, 2));
+    Console.WriteLine($"Długość przekątnej: {diagonal}");
+}
+else
+{
+    Console.WriteLine("Błedne dane!");   
 }
 
 // 4. Napisz program w którym stworzysz 2 zmienne liczbowe, oraz jedną tekstową, a następnie
