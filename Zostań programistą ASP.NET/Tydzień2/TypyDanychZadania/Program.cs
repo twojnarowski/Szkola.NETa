@@ -13,7 +13,7 @@ string lastName;
 int age;
 char sex;
 string pesel;
-int workerNumber;
+string workerNumber;
 
 // 2. Napisz program, w którym stworzysz 3 zmienne z jedną literą, a następnie wypiszesz je w
 // odwrotnej kolejności niż zostały zadeklarowane
@@ -71,7 +71,7 @@ char.TryParse(Console.ReadLine(), out sex);
 Console.WriteLine("Podaj swój PESEL:");
 pesel = Console.ReadLine();
 Console.WriteLine("Podaj swój numer pracowniczy:");
-int.TryParse(Console.ReadLine(), out workerNumber);
+workerNumber = Console.ReadLine();
 Console.WriteLine("Podaj swój numer telefonu:");
 string phoneNumber = Console.ReadLine();
 Console.WriteLine("Podaj swój adres email:");
