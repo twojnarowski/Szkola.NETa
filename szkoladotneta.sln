@@ -3,47 +3,70 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm01", "Algorytm01\Algorytm01.csproj", "{681FF28C-5880-47CB-A255-002D50534CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm01", "Discord\Algorytmy\Algorytm01\Algorytm01.csproj", "{681FF28C-5880-47CB-A255-002D50534CAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm02", "Algorytm02\Algorytm02.csproj", "{28C25B7F-A606-400F-8709-0565A89B5C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm02", "Discord\Algorytmy\Algorytm02\Algorytm02.csproj", "{28C25B7F-A606-400F-8709-0565A89B5C5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm03", "Algorytm03\Algorytm03.csproj", "{7466DF24-2860-4901-9718-95E9D9DAF563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm03", "Discord\Algorytmy\Algorytm03\Algorytm03.csproj", "{7466DF24-2860-4901-9718-95E9D9DAF563}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm04", "Algorytm04\Algorytm04.csproj", "{5F93725E-F21D-4545-8501-53F5FE317DA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm04", "Discord\Algorytmy\Algorytm04\Algorytm04.csproj", "{5F93725E-F21D-4545-8501-53F5FE317DA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm05", "Algorytm05\Algorytm05.csproj", "{79172147-B541-4E28-90EA-7CA26988DE75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm05", "Discord\Algorytmy\Algorytm05\Algorytm05.csproj", "{79172147-B541-4E28-90EA-7CA26988DE75}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm06", "Algorytm06\Algorytm06.csproj", "{F28E834A-AC03-4C7E-8DBC-A752430CD3F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm06", "Discord\Algorytmy\Algorytm06\Algorytm06.csproj", "{F28E834A-AC03-4C7E-8DBC-A752430CD3F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytm07", "Algorytm07\Algorytm07.csproj", "{E746D96F-D98E-492A-877E-AFAA4EBD4C06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorytm07", "Discord\Algorytmy\Algorytm07\Algorytm07.csproj", "{E746D96F-D98E-492A-877E-AFAA4EBD4C06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm08", "Algorytm08\Algorytm08.csproj", "{BD191949-8442-410E-A7A7-980A69FD5B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm08", "Discord\Algorytmy\Algorytm08\Algorytm08.csproj", "{BD191949-8442-410E-A7A7-980A69FD5B13}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm09", "Algorytm09\Algorytm09.csproj", "{9229EBB2-8F2A-4DCD-951E-44FEB429013A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm09", "Discord\Algorytmy\Algorytm09\Algorytm09.csproj", "{9229EBB2-8F2A-4DCD-951E-44FEB429013A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm10", "Algorytm10\Algorytm10.csproj", "{05A350C1-96C4-46A1-AFD9-D7D4818B4E3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm10", "Discord\Algorytmy\Algorytm10\Algorytm10.csproj", "{05A350C1-96C4-46A1-AFD9-D7D4818B4E3E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm11", "Algorytm11\Algorytm11.csproj", "{26F16758-BCC0-4DDA-876A-729CE40381DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm11", "Discord\Algorytmy\Algorytm11\Algorytm11.csproj", "{26F16758-BCC0-4DDA-876A-729CE40381DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm12", "Algorytm12\Algorytm12.csproj", "{07427E05-A08E-418A-A3B0-0CFAD0AEACC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm12", "Discord\Algorytmy\Algorytm12\Algorytm12.csproj", "{07427E05-A08E-418A-A3B0-0CFAD0AEACC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm13", "Algorytm13\Algorytm13.csproj", "{45AE255C-8576-482B-B811-0A7BA5FA15B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm13", "Discord\Algorytmy\Algorytm13\Algorytm13.csproj", "{45AE255C-8576-482B-B811-0A7BA5FA15B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm14", "Algorytm14\Algorytm14.csproj", "{8231867F-2544-4AE6-99BB-7C93B0CA5E5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm14", "Discord\Algorytmy\Algorytm14\Algorytm14.csproj", "{8231867F-2544-4AE6-99BB-7C93B0CA5E5B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm15", "Algorytm15\Algorytm15.csproj", "{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm15", "Discord\Algorytmy\Algorytm15\Algorytm15.csproj", "{B9EE7736-1A85-4D35-86B7-A57CAEAA7722}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm16", "Algorytm16\Algorytm16.csproj", "{1515C0AB-8C9B-44C6-86D8-FD16670812AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm16", "Discord\Algorytmy\Algorytm16\Algorytm16.csproj", "{1515C0AB-8C9B-44C6-86D8-FD16670812AA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm17", "Algorytm17\Algorytm17.csproj", "{0704D7C2-8C35-40DA-B0F0-507A3496EEBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm17", "Discord\Algorytmy\Algorytm17\Algorytm17.csproj", "{0704D7C2-8C35-40DA-B0F0-507A3496EEBE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm18", "Algorytm18\Algorytm18.csproj", "{9D93DD7F-409F-4A57-B4BA-1E529B9B44B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytm18", "Discord\Algorytmy\Algorytm18\Algorytm18.csproj", "{9D93DD7F-409F-4A57-B4BA-1E529B9B44B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zostań programistą ASP.NET", "Zostań programistą ASP.NET", "{7AC8B357-09E4-427A-8F37-0A33FA0E0C0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tydzień2", "Tydzień2", "{6E1063F2-02CE-45BC-B846-0F8957AA2729}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypyDanychZadania", "Zostań programistą ASP.NET\Tydzień2\TypyDanychZadania\TypyDanychZadania.csproj", "{CCFD8119-7B52-4090-BF92-3C8A0C427555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discord", "Discord", "{4EC32818-0DCD-4917-8BD9-D253CF23AE5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorytmy", "Algorytmy", "{6F7E117B-C39E-46BA-A29F-E7D3B6411761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqChallenges", "LinqChallenges", "{E64AF799-3CDF-49C2-8612-EEDDF4AD1DCE}"
+	ProjectSection(SolutionItems) = preProject
+		Discord\Linq Challenges\Linq1.cs = Discord\Linq Challenges\Linq1.cs
+		Discord\Linq Challenges\Linq10.cs = Discord\Linq Challenges\Linq10.cs
+		Discord\Linq Challenges\Linq11.cs = Discord\Linq Challenges\Linq11.cs
+		Discord\Linq Challenges\Linq12.cs = Discord\Linq Challenges\Linq12.cs
+		Discord\Linq Challenges\Linq13.cs = Discord\Linq Challenges\Linq13.cs
+		Discord\Linq Challenges\Linq14.cs = Discord\Linq Challenges\Linq14.cs
+		Discord\Linq Challenges\Linq15.cs = Discord\Linq Challenges\Linq15.cs
+		Discord\Linq Challenges\Linq2.cs = Discord\Linq Challenges\Linq2.cs
+		Discord\Linq Challenges\Linq3.cs = Discord\Linq Challenges\Linq3.cs
+		Discord\Linq Challenges\Linq4.cs = Discord\Linq Challenges\Linq4.cs
+		Discord\Linq Challenges\Linq5.cs = Discord\Linq Challenges\Linq5.cs
+		Discord\Linq Challenges\Linq6.cs = Discord\Linq Challenges\Linq6.cs
+		Discord\Linq Challenges\Linq7.cs = Discord\Linq Challenges\Linq7.cs
+		Discord\Linq Challenges\Linq8.cs = Discord\Linq Challenges\Linq8.cs
+		Discord\Linq Challenges\Linq9.cs = Discord\Linq Challenges\Linq9.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -132,8 +155,28 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{681FF28C-5880-47CB-A255-002D50534CAA} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{28C25B7F-A606-400F-8709-0565A89B5C5C} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{7466DF24-2860-4901-9718-95E9D9DAF563} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{5F93725E-F21D-4545-8501-53F5FE317DA2} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{79172147-B541-4E28-90EA-7CA26988DE75} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{F28E834A-AC03-4C7E-8DBC-A752430CD3F4} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{E746D96F-D98E-492A-877E-AFAA4EBD4C06} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{BD191949-8442-410E-A7A7-980A69FD5B13} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{9229EBB2-8F2A-4DCD-951E-44FEB429013A} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{05A350C1-96C4-46A1-AFD9-D7D4818B4E3E} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{26F16758-BCC0-4DDA-876A-729CE40381DD} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{07427E05-A08E-418A-A3B0-0CFAD0AEACC4} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{45AE255C-8576-482B-B811-0A7BA5FA15B3} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{8231867F-2544-4AE6-99BB-7C93B0CA5E5B} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{B9EE7736-1A85-4D35-86B7-A57CAEAA7722} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{1515C0AB-8C9B-44C6-86D8-FD16670812AA} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{0704D7C2-8C35-40DA-B0F0-507A3496EEBE} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
+		{9D93DD7F-409F-4A57-B4BA-1E529B9B44B4} = {6F7E117B-C39E-46BA-A29F-E7D3B6411761}
 		{6E1063F2-02CE-45BC-B846-0F8957AA2729} = {7AC8B357-09E4-427A-8F37-0A33FA0E0C0F}
 		{CCFD8119-7B52-4090-BF92-3C8A0C427555} = {6E1063F2-02CE-45BC-B846-0F8957AA2729}
+		{6F7E117B-C39E-46BA-A29F-E7D3B6411761} = {4EC32818-0DCD-4917-8BD9-D253CF23AE5C}
+		{E64AF799-3CDF-49C2-8612-EEDDF4AD1DCE} = {4EC32818-0DCD-4917-8BD9-D253CF23AE5C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D08A0EE1-A4B6-4B3C-A2D0-DBE32FF40892}
