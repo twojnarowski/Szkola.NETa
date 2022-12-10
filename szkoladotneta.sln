@@ -68,6 +68,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LinqChallenges", "LinqChall
 		Discord\Linq Challenges\Linq9.cs = Discord\Linq Challenges\Linq9.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZadaniaWarunki", "Zostań programistą ASP.NET\Tydzień2\ZadaniaWarunki\ZadaniaWarunki.csproj", "{7294174D-4135-4B3A-AB0B-4CCD9537AEC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +152,10 @@ Global
 		{CCFD8119-7B52-4090-BF92-3C8A0C427555}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCFD8119-7B52-4090-BF92-3C8A0C427555}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCFD8119-7B52-4090-BF92-3C8A0C427555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7294174D-4135-4B3A-AB0B-4CCD9537AEC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7294174D-4135-4B3A-AB0B-4CCD9537AEC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7294174D-4135-4B3A-AB0B-4CCD9537AEC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7294174D-4135-4B3A-AB0B-4CCD9537AEC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +183,7 @@ Global
 		{CCFD8119-7B52-4090-BF92-3C8A0C427555} = {6E1063F2-02CE-45BC-B846-0F8957AA2729}
 		{6F7E117B-C39E-46BA-A29F-E7D3B6411761} = {4EC32818-0DCD-4917-8BD9-D253CF23AE5C}
 		{E64AF799-3CDF-49C2-8612-EEDDF4AD1DCE} = {4EC32818-0DCD-4917-8BD9-D253CF23AE5C}
+		{7294174D-4135-4B3A-AB0B-4CCD9537AEC3} = {6E1063F2-02CE-45BC-B846-0F8957AA2729}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D08A0EE1-A4B6-4B3C-A2D0-DBE32FF40892}
