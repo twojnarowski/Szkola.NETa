@@ -397,13 +397,11 @@ switch (numberCalculatorChosenOption)
     case 2:
         calculatorResult = numberCalculator1 - numberCalculator2;
         calculationsComplete = true;
-
         break;
 
     case 3:
         calculatorResult = numberCalculator1 * numberCalculator2;
         calculationsComplete = true;
-
         break;
 
     case 4:
@@ -416,6 +414,7 @@ switch (numberCalculatorChosenOption)
         {
             Console.WriteLine("Nie można dzielić przez 0!");
         }
+
         break;
 
     default:
