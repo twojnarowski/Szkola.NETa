@@ -162,7 +162,7 @@ if (int.TryParse(Console.ReadLine(), out int numberHeight))
     }
     else
     {
-        insult += "bardzowysoki";
+        insult += "bardzo wysoki";
     }
 
     Console.WriteLine(insult);
