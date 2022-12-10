@@ -110,14 +110,17 @@ if (int.TryParse(Console.ReadLine(), out int numberPoliticsAge))
     {
         response.Append("nikim");
     }
+
     if (numberPoliticsAge >= 21)
     {
         response.Append($"posłem lub premierem");
     }
+
     if (numberPoliticsAge >= 30)
     {
         response.Append($" a także senatorem");
     }
+
     if (numberPoliticsAge >= 35)
     {
         response.Append($" lub prezydentem");
