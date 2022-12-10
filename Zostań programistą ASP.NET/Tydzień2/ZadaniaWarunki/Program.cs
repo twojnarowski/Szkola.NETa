@@ -97,10 +97,10 @@ if (int.TryParse(Console.ReadLine(), out int numberLeapYear))
 // Rezultat w terminalu :
 // Możesz zostać posłem
 
-int poseł = 21;
-int senator = 30;
-int prezydent = 35;
-int premier = 21;
+// poseł = 21
+// senator = 30
+// prezydent = 35
+// premier = 21
 
 Console.Write("Podaj swój wiek, żeby sprawdzić na jakie stanowisko możesz kandydować: ");
 if (int.TryParse(Console.ReadLine(), out int numberPoliticsAge))
