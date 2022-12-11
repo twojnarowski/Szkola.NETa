@@ -34,19 +34,11 @@ else
 Console.Write("Podaj liczbę do sprawdzenia parzystości: ");
 if (int.TryParse(Console.ReadLine(), out int numberParity))
 {
-    string parity;
-    if (numberParity != 0)
+    string parity = (numberParity % 2 == 0) switch
     {
-        parity = (numberParity % 2 == 0) switch
-        {
-            true => "parzystą",
-            false => "nieparzystą"
-        };
-    }
-    else
-    {
-        parity = "nieparzystą";
-    }
+        true => "parzystą",
+        false => "nieparzystą"
+    };
 
     Console.WriteLine($"{numberParity} jest liczbą {parity}");
 }
