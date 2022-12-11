@@ -191,6 +191,7 @@ if (int.TryParse(Console.ReadLine(), out int numberDecimal))
 Console.WriteLine();
 
 //10. Napisz program, który znajdzie najmniejszą wspólną wielokrotność dla zadanych 2 liczb.
+
 int number1;
 int number2;
 do
