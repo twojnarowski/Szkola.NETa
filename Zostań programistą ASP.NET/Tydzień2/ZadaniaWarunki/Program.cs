@@ -8,12 +8,21 @@
 // Rezultat w terminalu :
 // 5 i 5 są równe
 
-int a = 5;
-int b = 5;
-
-if (a == b)
+int numberCompare1;
+int numberCompare2;
+do
 {
-    Console.WriteLine("5 i 5 są równe");
+    Console.WriteLine("Podaj dwie liczby do porównania, wciskając po każdej z nich enter: ");
+}
+while (!int.TryParse(Console.ReadLine(), out numberCompare1) || !int.TryParse(Console.ReadLine(), out numberCompare2));
+
+if (numberCompare1 == numberCompare2)
+{
+    Console.WriteLine($"{numberCompare1} i {numberCompare2} są równe");
+}
+else
+{
+    Console.WriteLine($"{numberCompare1} i {numberCompare2} nie są równe");
 }
 
 // 2.Napisz program w C#, który sprawdzi czy podana przez użytkownika liczba
