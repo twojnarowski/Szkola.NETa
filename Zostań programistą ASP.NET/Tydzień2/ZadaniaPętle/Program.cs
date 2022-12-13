@@ -1,4 +1,6 @@
-﻿// 1.Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100.
+﻿using System.Text;
+
+// 1.Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100.
 
 Console.Write("Liczby pierwsze: ");
 for (int i = 2; i <= 100; i++)
@@ -160,15 +162,16 @@ if (int.TryParse(Console.ReadLine(), out int numberDiamond))
 
 Console.Write("Proszę podać ciąg znaków do odwrócenia: ");
 var text = Console.ReadLine();
+StringBuilder reverseText = new StringBuilder();
 if (text is not null)
 {
     for (int i = text.Length - 1; i >= 0; i--)
     {
-        Console.Write(text[i]);
+        reverseText.Append(text[i]);
     }
 }
 
-Console.WriteLine();
+Console.WriteLine(reverseText.ToString());
 
 // 9. Napisz program, który zamieni liczbę dziesiętną na liczbę binarną.
 
