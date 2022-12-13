@@ -1,4 +1,4 @@
-﻿//1.Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100.
+﻿// 1.Napisz program, który sprawdzi ile jest liczb pierwszych w zakresie 0 – 100.
 
 Console.Write("Liczby pierwsze: ");
 for (int i = 2; i <= 100; i++)
@@ -20,8 +20,8 @@ for (int i = 2; i <= 100; i++)
 
 Console.WriteLine();
 
-//2. Napisz program, w którym za pomocą pętli do…while znajdziesz wszystkie liczby parzyste z
-//zakresu 0 – 1000.
+// 2. Napisz program, w którym za pomocą pętli do…while znajdziesz wszystkie liczby parzyste z
+// zakresu 0 – 1000.
 
 int k = 0;
 Console.Write("Liczby parzyste: ");
@@ -33,7 +33,7 @@ do
 while (k <= 1000);
 Console.WriteLine();
 
-//3. Napisz program, który zaimplementuje ciąg Fibonacciego i wyświetli go na ekranie.
+// 3. Napisz program, który zaimplementuje ciąg Fibonacciego i wyświetli go na ekranie.
 
 Console.Write("Podaj ilość liczb ciągu Fibonacciego do wyliczenia: ");
 double fib1 = 0;
@@ -52,12 +52,12 @@ if (int.TryParse(Console.ReadLine(), out int fibonacciLength))
 
 Console.WriteLine();
 
-//4. Napisz program, który po podaniu liczby całkowitej wyświetli piramidę liczb od 1 do podanej
-//liczby w formie jak poniżej:
-//1
-//2 3
-//4 5 6
-//7 8 9 10
+// 4. Napisz program, który po podaniu liczby całkowitej wyświetli piramidę liczb od 1 do podanej
+// liczby w formie jak poniżej:
+// 1
+// 2 3
+// 4 5 6
+// 7 8 9 10
 
 Console.Write("Podaj liczbę do stworzenia piramidki: ");
 if (int.TryParse(Console.ReadLine(), out int numberStairs))
@@ -78,7 +78,7 @@ if (int.TryParse(Console.ReadLine(), out int numberStairs))
     }
 }
 
-//5.Napisz program, który dla liczb od 1 do 20 wyświetli na ekranie ich 3 potęgę.
+// 5.Napisz program, który dla liczb od 1 do 20 wyświetli na ekranie ich 3 potęgę.
 
 Console.Write("Sześciany liczb od 1 do 20: ");
 for (int i = 1; i <= 20; i++)
@@ -88,8 +88,8 @@ for (int i = 1; i <= 20; i++)
 
 Console.WriteLine();
 
-//6. Napisz program, który dla liczb od 0 do 20 obliczy sumę wg wzoru:
-//1 + ½ +1 / 3 + ¼ itd.
+// 6. Napisz program, który dla liczb od 0 do 20 obliczy sumę wg wzoru:
+// 1 + ½ +1 / 3 + ¼ itd.
 
 Console.WriteLine("Suma ciągu an = 1/n dla n e {1, 20}: ");
 for (int i = 1; i <= 20; i++)
@@ -102,17 +102,17 @@ for (int i = 1; i <= 20; i++)
     Console.WriteLine($"{i} => {sum.ToString()}");
 }
 
-//7.Napisz program, który dla liczby zadanej przez użytkownika narysuje diament o krótszej
-//przekątnej o długości wprowadzonej przez użytkownika i wg wzoru:
-//    *
-//   ***
-//  *****
-// *******
-//*********
-// *******
-//  *****
-//   ***
-//    *
+// 7.Napisz program, który dla liczby zadanej przez użytkownika narysuje diament o krótszej
+// przekątnej o długości wprowadzonej przez użytkownika i wg wzoru:
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+//  *******
+//   *****
+//    ***
+//     *
 
 Console.Write("Podaj przekątną diamentu: ");
 if (int.TryParse(Console.ReadLine(), out int numberDiamond))
@@ -152,11 +152,11 @@ if (int.TryParse(Console.ReadLine(), out int numberDiamond))
     }
 }
 
-//8.Napisz program, który odwróci wprowadzony przez użytkownika ciąg znaków. Np.
-//Testowe dane:
-//Abcdefg
-//Rezultat
-//Gfedcba
+// 8.Napisz program, który odwróci wprowadzony przez użytkownika ciąg znaków. Np.
+// Testowe dane:
+// Abcdefg
+// Rezultat
+// Gfedcba
 
 Console.Write("Proszę podać ciąg znaków do odwrócenia: ");
 var text = Console.ReadLine();
@@ -170,7 +170,7 @@ if (text is not null)
 
 Console.WriteLine();
 
-//9. Napisz program, który zamieni liczbę dziesiętną na liczbę binarną.
+// 9. Napisz program, który zamieni liczbę dziesiętną na liczbę binarną.
 
 Console.Write("Podaj liczbę do przekonwertowania na binarną: ");
 if (int.TryParse(Console.ReadLine(), out int numberDecimal))
@@ -190,7 +190,7 @@ if (int.TryParse(Console.ReadLine(), out int numberDecimal))
 
 Console.WriteLine();
 
-//10. Napisz program, który znajdzie najmniejszą wspólną wielokrotność dla zadanych 2 liczb.
+// 10. Napisz program, który znajdzie najmniejszą wspólną wielokrotność dla zadanych 2 liczb.
 
 int number1;
 int number2;
